@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.bloque1{
+    background-color: rgba(141, 248, 230, 0.952);
+    /* modelo de caja */
+    width: 30%;
+    height: 60%;
+}
+
+.bloque2{
+    background-color: rgba(58, 173, 58, 0.952);
+    /* modelo de caja */
+    width: 700px;
+    height: 40px;
+}
+
+.bloque3{
+    background-color: rgba(108, 93, 246, 0.952);
+    /* modelo de caja */
+    /* width: 100% de su padre */
+    /* height: Contenido interno */
+}
+
+.span1{
+    background-color: rgba(141, 248, 230, 0.952);
+}
+
+.span2{
+    background-color: rgba(58, 173, 58, 0.952);
+}
+
+.span3{
+    background-color: rgba(108, 93, 246, 0.952);
+}
+
+.cajaPadre{
+    background-color: rgba(181, 196, 238, 0.952);
+    width: 120px;
+    height: 130px;
+    padding: 12px;  /*  padding: 12px 20px; */   /* padding: 60px 15px 30px 45px; */
+    border: solid 3px green;
+    margin: 30px;     /*   margin: 12px 20px;   */     /*  margin: 60px 15px 30px 45px; */
+    box-sizing: border-box;
+  
+}
+
+.cajaHija{
+    color: white;
+    background-color: rgba(95, 148, 218, 0.952);
+    height: 100%;
+}
