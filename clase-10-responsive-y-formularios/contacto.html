@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>COntacto</title>
+</head>
+<body>
+    <header>
+        <p>Header</p>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <i class="fas fa-bars"></i>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        
+        <form action="./contacto.html" method="GET">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+
+            <div>
+                <label for="mail">Mail:</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+
+            <div>
+                <label for="pais">Selecciona tu país:</label>
+                <select name="pais" id="pais">
+                    <!-- <option>Seleccioná tu país</option> -->
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="ch" selected>Chile</option>
+                </select>
+            </div>
+
+            <div>
+                <p>¿Te contactaste con nosotros previamente?</p>
+
+                <input type="radio" name="contacto-previo" id="contacto-previo-si" value="si">
+                <label for="contacto-previo-si">Si</label>
+
+                <input type="radio" name="contacto-previo" id="contacto-previo-no" value="no" checked>
+                <label for="contacto-previo-no">No</label>
+            </div>
+
+            <div>
+                <p>Elige el/los motivos de tu contacto</p>
+
+                <input type="checkbox" name="motivo-contacto" id="motivo-contacto-consulta" value="consulta">
+                <label for="motivo-contacto-consulta">Consulta</label>
+
+                <input type="checkbox" name="motivo-contacto" id="motivo-contacto-reclamo" value="reclamo">
+                <label for="motivo-contacto-reclamo">Reclamo</label>
+
+            </div>
+
+            <div>
+                <label for="mensaje">Ingresa tu mensaje</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright © - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

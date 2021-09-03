@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER  */
+header {
+    background-color: lightskyblue;
+    text-align: center;
+
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    margin-left: 10px;
+}
+
+header i.fa-bars {
+    display: none;
+}
+
+/* MAIN  */
+main {
+    width: 75vw;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+section {
+    background-color: linen;
+}
+
+.section-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px
+}
+
+.article-flex-item {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center
+}
+
+.article-flex-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.shrek {
+    order: 1;
+    align-self: flex-end;
+    width: 10%;
+}
+
+.gato {
+    order: -1;
+    align-self: flex-start;
+}
+
+.burro {
+    align-self: stretch;
+}
+
+/* CONTACTO  */
+
+
+/* FOOTER  */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* MEDIA QURIES  */
+
+/* MOBILE LAST  */
+/* Tablet  */
+@media (max-width: 768px) {
+    .article-flex-item {
+        width: 50%;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 420px) {
+    header i.fa-bars {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .article-flex-item {
+        width: 100%;
+    }
+}
+
+
+
+
+/* MOBILE FIRST  */
+/* Tablet  */
+@media (min-width: 768px) {
+
+}
+/* Desktop  */
+@media (min-width: 1024px) {
+
+}
