@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Proyecto Base</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <a href="./index.html"><h2 class="titulo">My Header</h2></a>
+    </div>
+    <div>
+      <ul class="listaHeader">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <div class="bloqueListaHeader">
+      <form action="./index.html" class="buscador">
+        <input type="text" placeholder="Buscador" />
+        <button type="submit">
+          <span><i class="fas fa-search"></i></span>
+        </button>
+      </form>
+    </div>
+
+
+
+  </header>
+
+  <main class="mainDetalle">
+    <section class="imgSection">
+      <div class="imgSectionFondo">
+        <img src="./img/pelicula1.jpg" alt="">
+      </div>
+     
+    </section>
+    <section class="detailSection">
+
+      <div class="detalleNombre">
+        <p class="detailSectionKey">Nombre:</p>
+        <p class="detailSectionValue">Shang-Chi</p>
+      </div>
+      <div class="detalleNombre">
+        <p class="detailSectionKey">Genero:</p>
+        <p class="detailSectionValue">Acción</p>
+      </div>
+      <div class="detalleNombre">
+        <p class="detailSectionKey">Rating:</p>
+        <p class="detailSectionValue">9.5 Pts</p>
+      </div>
+      <div class="detalleNombre">
+        <p class="detailSectionKey">Sinopsis:</p>
+        <p class="detailSectionValue">Shang-Chi debe enfrentarse al pasado que pensó que  había dejado atrás cuando <br>se ve
+          atraído por la red de la misteriosa organización de los Diez Anillos.</p>
+      </div>
+
+    </section>
+
+    <section>
+      <form action="" method="get">
+        <div>
+          <label for="apellido">Nombre:</label>
+          <input type="text" placeholder="Contenido interno" name="name" id="nombre">
+        </div>
+
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input type="text" placeholder="Apellido" name="apellido" id="apellido">
+        </div>
+
+        <div>
+          <label for="apellido">Imagen:</label>
+          <input type="file" name="asd" id="apellido">
+        </div>
+      </form>
+    </section>
+
+
+  </main>
+  <footer>
+    <h2>My Footer</h2>
+  </footer>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
