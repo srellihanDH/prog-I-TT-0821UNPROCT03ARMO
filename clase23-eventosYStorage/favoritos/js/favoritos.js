@@ -8,7 +8,7 @@ console.log(favoritos);
 
 //Capturar el contenedor de los elementos a mostar
 let section = document.querySelector('.lista');
-let personajesFavoritos = 'Hola'
+let personajesFavoritos = '';
 
 
 //Si el storage está vacío indicamos al usuario que no hay favoritos seleccionados.
