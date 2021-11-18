@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Validando formularios</h1>
+    <form action="reuslt.html" method="GET">
+        <input type="text" class="search" name="search" value="" placeholder="Buscar..." />
+
+        <input type="radio" name="media" value="all">
+        <label for="">Todo</label>
+        <input type="radio" name="media" value="movies">
+        <label for="">Peliculas</label>
+        <input type="radio" name="media" value="series">
+        <label for="">Series</label>
+        
+        <p class="message"></p>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
